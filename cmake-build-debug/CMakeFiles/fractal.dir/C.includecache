@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libcl/include/libcl.h
+OpenCL/opencl.h
+-
+stdio.h
+-
+libft.h
+../libcl/include/libft.h
+
+../libft/libft.h
+unistd.h
+-
+stdlib.h
+-
+string.h
+-
+
+/Users/efleta/Desktop/fractol/includes/fractol.h
+libft.h
+/Users/efleta/Desktop/fractol/includes/libft.h
+mlx.h
+-
+stdio.h
+-
+libcl.h
+-
+
+/Users/efleta/Desktop/fractol/src/main.c
+../includes/fractol.h
+/Users/efleta/Desktop/fractol/includes/fractol.h
+mlx.h
+-
+
+/usr/local/include/mlx.h
+

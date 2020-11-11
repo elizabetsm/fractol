@@ -6,7 +6,7 @@
 /*   By: efleta <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/19 21:58:28 by efleta            #+#    #+#             */
-/*   Updated: 2019/09/19 23:55:43 by efleta           ###   ########.fr       */
+/*   Updated: 2020/11/09 19:21:43 by efleta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ char	*ft_strjoin(char **s1, char **s2, int f, int s)
 {
 	char	*result;
 	char	*start;
-	char *tmp;
+	char	*tmp;
 
 	if (!*s1 && !*s2)
 		return (NULL);

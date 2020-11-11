@@ -27,8 +27,6 @@ static void	cl_build_program(cl_device_id device, cl_program *program)
 		log = (char*)malloc(log_size);
 		clGetProgramBuildInfo(*program, device,
 				CL_PROGRAM_BUILD_LOG, log_size, log, NULL);
-		printf("build program - ERROR (%d)\n", err);
-		printf("%s\n", log);
 		exit(-1);
 	}
 }

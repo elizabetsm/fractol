@@ -14,7 +14,7 @@
 
 void	cl_exit_error(char *output_error)
 {
-	printf("ERROR: %s\n", output_error);
+	output_error = NULL;
 	exit(-1);
 }
 
@@ -43,7 +43,6 @@ char	*cl_get_file_buf(const char *name, size_t *program_size)
 	fd = fopen(name, "r");
 	if (!fd)
 	{
-		printf("ERROR: Open kernel file '%s'\n", name);
 		exit(-1);
 	}
 	fseek(fd, 0, SEEK_END);

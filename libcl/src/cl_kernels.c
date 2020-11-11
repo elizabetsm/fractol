@@ -27,6 +27,7 @@ static void	cl_add_kernel_by_name(t_cl *cl, char *name)
 	if (err != 0 || !(lst = ft_lstnew(NULL, 0)))
 		cl_exit_error("create kernel");
 	hash = ft_strhash(name);
+	lst->next = NULL;
 	lst->content = (void *)kernel;
 	lst->content_size = hash;
 	ft_lstadd(&(cl->kernels), lst);

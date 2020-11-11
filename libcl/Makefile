@@ -6,11 +6,9 @@
 #    By: sbednar <sbednar@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/03/07 16:14:32 by sbednar           #+#    #+#              #
-#    Updated: 2019/09/29 22:21:02 by rkeli            ###   ########.fr        #
+#    Updated: 2020/11/08 08:28:14 by efleta           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
-
-include			../Makefile.inc
 
 NAME 		=	libcl.a
 
@@ -45,7 +43,6 @@ $(OBJ_DIR):
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
 	$(CC) $(CFLAGS) $(INCS) -o $@ -c $<
-	@echo "1" > ../$(TEMP)
 
 clean:
 	rm -rf $(OBJ_DIR)

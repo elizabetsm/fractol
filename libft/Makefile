@@ -22,7 +22,7 @@ ft_strlcat.c ft_strmap.c ft_strmapi.c ft_strnequ.c ft_strequ.c ft_strsub.c \
 ft_strjoin.c ft_putchar_fd.c ft_putstr_fd.c ft_putchar.c ft_putstr.c ft_putendl.c \
 ft_putnbr.c ft_putendl_fd.c ft_itoa.c ft_putnbr_fd.c ft_strsplit.c ft_strtrim.c \
 ft_lstnew.c ft_lstdelone.c ft_lstdel.c ft_lstadd.c ft_lstiter.c ft_lstmap.c \
-ft_strsplit1.c ft_strsplit2.c
+ft_strsplit1.c ft_x_memalloc.c ft_strhash.c
 
 OBJ = ft_bzero.o ft_memset.o ft_memccpy.o ft_memcpy.o ft_tolower.o ft_toupper.o \
 ft_isprint.o ft_isascii.o ft_isalnum.o ft_isdigit.o ft_isalpha.o ft_strdup.o ft_strlen.o \
@@ -32,7 +32,8 @@ ft_memalloc.o ft_memdel.o ft_strnew.o ft_strdel.o ft_strclr.o ft_striter.o ft_st
 ft_strlcat.o ft_strmap.o ft_strmapi.o ft_strnequ.o ft_strequ.o ft_strsub.o ft_strjoin.o \
 ft_putchar_fd.o ft_putstr_fd.o ft_putchar.o ft_putstr.o ft_putendl.o ft_putnbr.o \
 ft_putendl_fd.o ft_itoa.o ft_putnbr_fd.o ft_strsplit.o ft_strtrim.o ft_lstnew.o ft_lstdelone.o \
-ft_lstdel.o ft_lstadd.o ft_lstiter.o ft_lstmap.o ft_strsplit1.o ft_strsplit2.o
+ft_lstdel.o ft_lstadd.o ft_lstiter.o ft_lstmap.o ft_strsplit1.o ft_x_memalloc.o \
+ft_strhash.o
 
 all: $(NAME)
 

@@ -16,7 +16,7 @@
 # define CL_SILENCE_DEPRECATION
 # include <OpenCL/opencl.h>
 # include <stdio.h>
-# include "libft.h"
+# include "../../libft/libft.h"
 
 typedef struct			s_cl
 {
